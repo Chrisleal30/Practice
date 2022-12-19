@@ -10,4 +10,7 @@ while guess != number:
         print("Sorry, the number you have chosen is too high!")
         guess = int(input("Guess again!"))
     else:
-        print("Congrats! You have guessedt he correct number.")
+        break
+
+if guess == number:
+    print("Nice, you've guessed the correct number!") 
